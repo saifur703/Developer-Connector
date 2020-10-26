@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .7rem 2rem;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid $primary-color;
+    opacity: 0.9;
+
+    h1 {
+        i {
+            margin-right: .2rem;
+        }
+    }
+
+    ul {
+        display: flex;
+    }
+    a {
+        color: #fff;
+        padding: .45rem;
+        margin: 0 .25rem;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+
